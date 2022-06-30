@@ -14,4 +14,4 @@ The Mini Project folder consists of the projects that were assigned each day.
 The Resources folder consists of resources that the course provided only on day 1. 
 
 # Progress
-## Day 2 Completed / Day 100
+### Day 2 Completed / Day 100
