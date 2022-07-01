@@ -52,12 +52,12 @@ This folder consists of interactive coding exercises that were completed during 
 3. Dictionary Comprehension 1
 4. Dictionary Comprehension 2
 
-# Day 30
+## Day 30
 1. IndexError Handling
 2. KeyError Handling
 
 ## Day 54
 1. Create Your Own Python Decorator
 
-# Day 55
+## Day 55
 1. Advanced Decorators
