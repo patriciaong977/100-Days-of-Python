@@ -15,6 +15,8 @@ I decided to learn more about python on top of my current knowledge to enhance m
 - ### Handwritten Notes 📝
   - These notes contain ideas that I jotted down while listening to the lectures.
   - Some are flow charts to understand coding logic.
+ - ### Interactive Coding Exercises
+  - Coding exercises coded while going over the course. 
 - ### Mini Projects 👩🏻‍💻
   - Consists of daily projects assigned each day. 
 - ### Resources 📖
