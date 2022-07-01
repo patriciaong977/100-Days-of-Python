@@ -1,3 +1,5 @@
+# Day 3 Project: Treasure Island --- Choose Your Own Adventure
+
 print('''
 0=========================================================0
 |'.                   All About Animals                 .'|
