@@ -6,6 +6,9 @@ This Repository is composed of my notes while learning python using Dr. Angela Y
 
 I decided to learn more about python on top of my current knowledge to enhance my skills as a programmer and also to refresh the knowledge that I've already gained from self-studying.
 
+# 📈 Progress
+### Day 3 ✅ / Day 💯
+
 # Folder Organization
 - ### Day # folders 📁
   - Contents of the folders represent that Day's notes from the course.
@@ -17,5 +20,4 @@ I decided to learn more about python on top of my current knowledge to enhance m
 - ### Resources 📖
   - Mostly pdf references from the course that I reference to. 
   
-# 📈 Progress
-### Day 3 ✅ / Day 💯
+
