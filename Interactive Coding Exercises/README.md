@@ -1,8 +1,8 @@
 # Coding Exercises
 This folder consists of interactive coding exercises that were completed during each day of the course.
 
-### Day 1
-1.Printing - Write a program in main.py that prints the same notes from the previous lesson using what you have learnt about the Python print function.
+## Day 1
+1. Printing - Write a program in main.py that prints the same notes from the previous lesson using what you have learnt about the Python print function.
 2. Debugging Practice - Look at the code in the code editor on the right. There are errors in all of the lines of code. Fix the code so that it runs without errors.
 3. Input Function - Write a program that prints the number of characters in a user's name. You might need to Google for a function that calculates the length of a string.
 4. Variables - Write a program that switches the values stored in the variables a and b.
