@@ -20,7 +20,7 @@ This folder consists of interactive coding exercises that were completed during 
 5. Love Calculator - You are going to write a program that tests the compatibility between two people.
 
 ## Day 4
-1. Heads or Tails
+1. Heads or Tails - You are going to write a virtual coin toss program. It will randomly tell the user "Heads" or "Tails".
 2. Banker Roulette
 3. Treasure Map
 
