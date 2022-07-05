@@ -7,7 +7,7 @@ This Repository is composed of my notes while learning python using Dr. Angela Y
 I decided to learn more about python on top of my current knowledge to enhance my skills as a programmer and also to refresh the knowledge that I've already gained from self-studying.
 
 # 📈 Progress
-### Day 3 ✅ / Day 💯
+### Day 4 ✅ / Day 💯
 
 # Folder Organization
 - ### Day # folders 📁
@@ -16,8 +16,8 @@ I decided to learn more about python on top of my current knowledge to enhance m
   - These notes contain ideas that I jotted down while listening to the lectures.
   - Some are flow charts to understand coding logic.
 - ### [Interactive Coding Exercises 💻](https://github.com/patriciaong977/100-Days-of-Python/tree/master/Interactive%20Coding%20Exercises)
-  - Coding exercises coded while going over the course. 
+  - Coding exercises coded while going over the course.
 - ### [Mini Projects 👩🏻‍💻](https://github.com/patriciaong977/100-Days-of-Python/tree/master/Mini%20Projects)
-  - Consists of daily projects assigned each day. 
+  - Consists of daily projects assigned each day.
 - ### Resources 📖
-  - Mostly pdf references from the course that I reference to. 
+  - Mostly pdf references from the course that I reference to.

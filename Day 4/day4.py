@@ -60,8 +60,41 @@ states_of_america.append("Angelaland")
 # More about lists: https://docs.python.org/3/tutorial/datastructures.html
 
 
-dirty_dozen = ["Strawberries", "Spinach", "Kale", "Nectarines", "Apples",
-               "Grapes", "Peaches", "Cherries", "Pears", "Tomatoes", "Celery",
-               "Potatoes"]
+# Index out of range.
+# dirty_dozen = ["Strawberries", "Spinach", "Kale", "Nectarines", "Apples",
+#                "Grapes", "Peaches", "Cherries", "Pears", "Tomatoes", "Celery",
+#                "Potatoes"]
+
+# Nested list - A list within a list.
+fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
+vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
+
+dirty_dozen = [fruits, vegetables] # Two other lists inside a list.
+
+print(dirty_dozen)
+
+
+# fruits = ["Strawberries", "Nectarines", "Apples", "Grapes",
+# "Peaches", "Cherries", "Pears"]
+# fruits[-1] = "Melons"
+# fruits.append("Lemons")
+# print(fruits)
+
+# What does the above print?
+# ["Strawberries", "Nectarines", "Apples", "Grapes", "Peaches",
+# "Cherries", "Melons", "Lemons"]
+
+
+# fruits = ["Strawberries", "Nectarines", "Apples",
+#           "Grapes", "Peaches", "Cherries", "Pears"]
+# vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
+
+# dirty_dozen = [fruits, vegetables]
+
+# print(dirty_dozen[1][1])
+
+# What does the above print?
+# Kale
 
 '''
+

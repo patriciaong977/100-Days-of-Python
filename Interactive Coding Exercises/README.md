@@ -21,8 +21,8 @@ This folder consists of interactive coding exercises that were completed during 
 
 ## Day 4
 1. Heads or Tails - You are going to write a virtual coin toss program. It will randomly tell the user "Heads" or "Tails".
-2. Banker Roulette
-3. Treasure Map
+2. Banker Roulette - You are going to write a program that will select a random name from a list of names. The person selected will have to pay for everybody's food bill.
+3. Treasure Map - You are going to write a program that will mark a spot with an X.
 
 ## Day 5
 1. Average Height
