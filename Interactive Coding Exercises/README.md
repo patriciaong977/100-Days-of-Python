@@ -19,7 +19,7 @@ This folder consists of interactive coding exercises that were completed during 
 4. Pizza Order Practice - Congratulations, you've got a job at Python Pizza. Your first job is to build an automatic pizza order program. Based on a user's order, work out their final bill.
 5. Love Calculator - You are going to write a program that tests the compatibility between two people.
 
-## [Day 4 ✅] (https://github.com/patriciaong977/100-Days-of-Python/tree/master/Interactive%20Coding%20Exercises/Day%204)
+## [Day 4 ✅](https://github.com/patriciaong977/100-Days-of-Python/tree/master/Interactive%20Coding%20Exercises/Day%204)
 1. Heads or Tails - You are going to write a virtual coin toss program. It will randomly tell the user "Heads" or "Tails".
 2. Banker Roulette - You are going to write a program that will select a random name from a list of names. The person selected will have to pay for everybody's food bill.
 3. Treasure Map - You are going to write a program that will mark a spot with an X.
