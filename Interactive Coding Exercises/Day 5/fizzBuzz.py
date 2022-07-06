@@ -12,4 +12,5 @@ for num in range(1, 101):
   else:
     print(num)
 
-# Remember to do the AND operator first! 
+# Remember to do the AND operator first!
+# If and elif statements will stop when they find a statement that's true.
