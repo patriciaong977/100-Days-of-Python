@@ -29,3 +29,9 @@ This folder contains all the projects mentioned so far on the course.
 - Ask the user to enter a choice of rock, paper, or scissors.
 - Ask the computer to randomly choose rock, paper, or scissors.
 - Compare the user's choice to the computer's choice and display the result.
+
+## Day 5: Password Generator - [passwordGenerator.py](https://github.com/patriciaong977/100-Days-of-Python/blob/master/Mini%20Projects/createPWGen.py)
+
+- Create a password generator.
+- Ask user how many letters, symbols and numbers they want in their password.
+
