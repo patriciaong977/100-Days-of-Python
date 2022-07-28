@@ -39,7 +39,7 @@ This folder contains all the projects mentioned so far on the course.
 
 - Create a hangman game.
 
-## Day 8: Caesar Cipher - [caesarCipher.py]()
+## Day 8: Caesar Cipher - [caesarCipher.py](https://github.com/patriciaong977/100-Days-of-Python/blob/master/Mini%20Projects/caesarCipher/caesarCipher.py)
 - Create a Caesar Cipher.
 - Ask the user for a message.
 - Ask the user for a shift value.
