@@ -39,7 +39,6 @@ while not game_over:
         game_over = True
         print("You win!")
 
-
 # Check if the letter the user guessed (guess) is one of the letters in the chosen_word.
 # Using for loops for the chosen_word.
 # Reference: https://developers.google.com/edu/python/lists#for-and-in
