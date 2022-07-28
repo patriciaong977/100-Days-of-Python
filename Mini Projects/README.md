@@ -35,5 +35,6 @@ This folder contains all the projects mentioned so far on the course.
 - Create a password generator.
 - Ask user how many letters, symbols and numbers they want in their password.
 
-## Day 7: Hangman - [hangman.py]()
+## Day 7: Hangman - [hangman.py](https://github.com/patriciaong977/100-Days-of-Python/blob/master/Mini%20Projects/Hangman/hangman.py)
+
 - Create a hangman game.
