@@ -40,7 +40,7 @@ This folder consists of interactive coding exercises that were completed during 
    - When the number is divisible by 5, then instead of printing the number it should print "Buzz".`
    - And if the number is divisible by both 3 and 5 e.g. 15 then instead of the number it should print "FizzBuzz"
 
-## Day 8
+## [Day 8 ✅](https://github.com/patriciaong977/100-Days-of-Python/tree/master/Interactive%20Coding%20Exercises/Day%208)
 
 1. Paint Area Calculator - You are painting a wall. The instructions on the paint can says that 1 can of paint can cover 5 square meters of wall.
    - Given a random height and width of wall, calculate how many cans of paint you'll need to buy.number of cans = (wall height ✖️ wall width) ÷ coverage per can.
