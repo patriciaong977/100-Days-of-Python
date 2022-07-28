@@ -17,7 +17,7 @@ length_Of_Word = len(chosen_word)
 
 
 # For Testing code, prints the random word chosen.
-print(f'Pssst, the solution is {chosen_word}.')
+# print(f'Pssst, the solution is {chosen_word}.')
 
 
 # Display "_" for each letter in the chosen_word.
