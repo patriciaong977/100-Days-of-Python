@@ -53,8 +53,14 @@ This folder consists of interactive coding exercises that were completed during 
 
 ## Day 9
 
-1. Grading Program
-2. Dictionary in List
+1. Grading Program - Write a program that converts their scores to grades. By the end of your program, you should have a new dictionary called student_grades that should contain student names for keys and their grades for values. The final version of the student_grades dictionary will be checked.
+    - This is the scoring criteria:
+      Scores 91 - 100: Grade = "Outstanding"
+      Scores 81 - 90: Grade = "Exceeds Expectations"
+      Scores 71 - 80: Grade = "Acceptable"
+      Scores 70 or lower: Grade = "Fail"
+
+2. Dictionary in List - You are going to write a program that adds to a travel_log. You can see a travel_log which is a List that contains 2 Dictionaries.
 
 ## Day 10
 
