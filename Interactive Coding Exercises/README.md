@@ -51,7 +51,7 @@ This folder consists of interactive coding exercises that were completed during 
    - e.g. 2 is a prime number because it's only divisible by 1 and 2.
    But 4 is not a prime number because you can divide it by 1, 2 or 4.
 
-## Day 9
+## [Day 9 ✅]()
 
 1. Grading Program - Write a program that converts their scores to grades. By the end of your program, you should have a new dictionary called student_grades that should contain student names for keys and their grades for values. The final version of the student_grades dictionary will be checked.
     - This is the scoring criteria:
