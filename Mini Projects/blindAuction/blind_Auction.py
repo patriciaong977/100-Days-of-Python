@@ -3,20 +3,18 @@
 
 #################################################
 from os import system, name # Using vs code, had to create own clear function.
-
+from bArt import logo  # Import the logo from bArt.py
+#################################################
 # Clear Function
 def clear():
   # For windows.
   if name == 'nt':
-    _ = system('cls') # For some reason, had to switch clear and cls.
+    _ = system('cls')
   # For Unix and Linux
   else:
     _ = system('clear')
 
 #################################################
-
-from bArt import logo # Import the logo from bArt.py
-
 # Show logo in the console.
 print(logo)
 
@@ -25,7 +23,6 @@ def highest_bidder(bidding_Dict):
   highest_Bid = 0  # Create a variable to store the highest bid.
   winning_Bidder = ""  # Create a variable to store the winning_Bidder.
 
-  # bidding_Dict = {"Isha": 100, "Andrew":200}
   for bidName in bidding_Dict:  # For each bidName in the bidding_Dict.
     bidAmt = bidding_Dict[bidName]  # The bidAmt is the value of the bidName.
     if bidAmt > highest_Bid: # If the bidAmt is greater than the highest_Bid.
