@@ -2,16 +2,17 @@
 #HINT: You can call clear() to clear the output in the console.
 
 #################################################
-import os # For clear function
+from os import system, name # Using vs code, had to create own clear function.
 
-os.system('clear')
-
-# to make it in a function
+# Clear Function
 def clear():
-  os.system('clear')
+  # For windows.
+  if name == 'nt':
+    _ = system('cls') # For some reason, had to switch clear and cls.
+  # For Unix and Linux
+  else:
+    _ = system('clear')
 
-# Call the clear function.
-# clear()
 #################################################
 
 from bArt import logo # Import the logo from bArt.py
@@ -19,40 +20,41 @@ from bArt import logo # Import the logo from bArt.py
 # Show logo in the console.
 print(logo)
 
-total_Bids = {}  # Create an empty dictionary to store name and bid_price.
-
-
 # Loop to find the highest bid.
-def highest_bid(total_Bids):
-  highest_Bidder = 0  # Create a variable to store the highest bidder.
-  wining_Bidder = ""  # Create a variable to store the wining bidder.
+def highest_bidder(bidding_Dict):
+  highest_Bid = 0  # Create a variable to store the highest bid.
+  winning_Bidder = ""  # Create a variable to store the winning_Bidder.
 
-  for bid_name in total_Bids: # If the bid_name is in the dictionary,
-    bid_price = total_Bids[bid_name]  # Get the bid_price.
+  # bidding_Dict = {"Isha": 100, "Andrew":200}
+  for bidName in bidding_Dict:  # For each bidName in the bidding_Dict.
+    bidAmt = bidding_Dict[bidName]  # The bidAmt is the value of the bidName.
+    if bidAmt > highest_Bid: # If the bidAmt is greater than the highest_Bid.
+      highest_Bid = bidAmt # The highest_Bid is the bidAmt.
+      winning_Bidder = bidName # The winning_Bidder is the bidName.
 
-    if bid_price > highest_bidder:  # If the bid_price is greater than the highest_bidder,
-      highest_bidder = bid_price  # Set the highest_bidder to the bid_price.
-      wining_Bidder = bid_name
-    print(f"The winner is {wining_Bidder} with a bid of ${highest_bidder}.")
+  # Print the winning_Bidder and highest_Bid.
+  print(f"The winner is {winning_Bidder} with a bid of ${highest_Bid}.")
 
 
-# While loop to ask for more bids.
-more_Bids = True
+# Loop to continue asking for more bids and bidders.
+total_Bids = {}  # Create an empty dictionary to store name and bid_price.
+continue_loop = True
 
-while more_Bids:
-  name = input("What is your name?")
-  bid_price = int(input("What is your bid price? $"))
+while continue_loop:
+  bidderName = input("What is your name? ")
+  # Make sure price input is integer.
+  bidderPrice = int(input("How much would you like to bid? $"))
 
-  # Add key and value to the dictionary. Key = name, value = bid_price.
-  total_Bids[name] = bid_price
+  # Add the bidderName and bidderPrice to the empty dictionary total_Bids.
+  total_Bids[bidderName] = bidderPrice
 
-  # Ask if there are more bidders.
-  continue_loop = input("Are there any other bidders? Type 'y' or 'n'.")
+  # Ask user if there are any more bidders.
+  more_Bidders = input("Are there any more bidders? Type 'yes' or 'no'. \n ")
 
-  # If there are more bidders, clear()
-  if continue_loop == "y":
-    clear()
-  else: # If there are no more bidders, more_Bids = False and call highest_bid().
-    more_Bids = False
-    # Call highest_bid function.
-    highest_bid(total_Bids)
+  # If there are more bidders, continue the loop,
+  if more_Bidders == "yes":
+    clear() # Clear the console for the next bidder.
+  else: # If there are no more bidders, break the loop.
+    continue_loop = False
+    # Call the highest_bidder function to find the highest bid.
+    highest_bidder(total_Bids) # Pass the dictionary.
