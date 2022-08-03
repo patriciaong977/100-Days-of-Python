@@ -62,7 +62,7 @@ This folder consists of interactive coding exercises that were completed during 
 
 2. Dictionary in List - You are going to write a program that adds to a travel_log. You can see a travel_log which is a List that contains 2 Dictionaries.
 
-## [Day 10✅]
+## [Day 10✅](https://github.com/patriciaong977/100-Days-of-Python/tree/master/Interactive%20Coding%20Exercises/Day%2010)
 
 1. Days in Month - In the starting code, you'll find the solution from the Leap Year challenge. First, convert this function is_leap() so that instead of printing "Leap year." or "Not leap year." it should return True if it is a leap year and return False if it is not a leap year.
     - You are then going to create a function called days_in_month() which will take a year and a month as inputs.
