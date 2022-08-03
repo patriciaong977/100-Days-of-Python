@@ -20,15 +20,22 @@ output_of_my_function = my_function()
 # formatted_Name = format_name("patriciA", "oNG")
 # print(formatted_Name)
 
+# Docstrings - little bits of documentation while coding.
 
-#
 def format_name(fName, lName):
+  """Take a first and last name and format it to return the title case version of the name.
+
+  Args:
+      fName (String): Takes the first name as a string.
+      lName (String): Takes the last name as a string.
+
+  Returns:
+      String: Returns a formatted string of the first and last name.
+  """
   # If fName and lName are empty.
   if fName == "" or lName == "":
     return "You didn't provide valid inputs." # Return a string.
-  # Else, execute the rest of the function. 
+  # Else, execute the rest of the function.
   format_fName = fName.title()
   format_lName = lName.title()
   return f"Result: {format_fName} {format_lName}"
-
-print(format_name(input("What is your first name? "), input("What is your last name? ")))
