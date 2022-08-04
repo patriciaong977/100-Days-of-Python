@@ -39,3 +39,7 @@ def format_name(fName, lName):
   format_fName = fName.title()
   format_lName = lName.title()
   return f"Result: {format_fName} {format_lName}"
+
+
+# Print vs Return
+  # Using return so that you can still use the result of the function.

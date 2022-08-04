@@ -45,3 +45,18 @@ This folder contains all the projects mentioned so far on the course.
 - Ask the user for a shift value.
 - Use the shift value to encrypt the message.
 - Display the encrypted message.
+
+## Day 9: Blind Auction - [blind_Auction.py](https://github.com/patriciaong977/100-Days-of-Python/blob/master/Mini%20Projects/blindAuction/blind_Auction.py)
+- Create a blind auction.
+- Ask the user for a starting bid.
+- Ask the user if there are any more bids.
+- If there are, ask the user for another bid.
+- If there are not, display the winning bid.
+
+## Day 10: Calculator - [calculator.py](https://github.com/patriciaong977/100-Days-of-Python/blob/master/Mini%20Projects/calculator/calculator.py)
+- Create a calculator.
+- Ask the for the first number.
+- Ask for the operator.
+- Ask for the second number.
+- Perform the calculation and display the result.
+- Ask if the user wants to do another calculation.

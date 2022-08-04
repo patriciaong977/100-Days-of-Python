@@ -1,8 +1,18 @@
-# CalculatorApp
+# Imports
+from os import system, name # For clear function.
 from calcArt import logo  # Import logo.
-print(logo) # Show logo in the console.
 
-# Adding
+######## Clear Function ########
+def clear():
+  # For windows.
+  if name == 'nt':
+    _ = system('cls')
+  # For Unix and Linux
+  else:
+    _ = system('clear')
+
+
+######## Operations Function ########
 def add(n1, n2):
   """Add two numbers together."""
   return n1 + n2
@@ -27,23 +37,33 @@ operations = {
   "/": divide
   }
 
-# Ask user for the first number.
-num1 = int(input("Enter the first number: "))
 
-# Print the different operations.
-for symbol in operations:
-  print(symbol)
+######## Main Function ########
+def calculator():
+  print(logo)  # Show logo in the console.
 
-# Ask user for an operation input.
-operations_Input = input("Pick an operation from the list above: ")
+  num1 = float(input("Enter the first number: ")) # Get the first number.
+  # Print the operations from the dictionary to the console.
+  for symbol in operations:
+    print(symbol)
+  should_continue = True # Create a variable to control the loop.
 
-# Ask user for the second number.
-num2 = int(input("Enter the second number: "))
+  # Loop to continue asking for more operations.
+  while should_continue:
+    operation_Input = input("Enter the operation: ") # Get the operation/key to access the dictionary.
+    num2 = float(input("Enter the second number: ")) # Get the second number.
 
-# Call the function using operations_Input in the operations dictionary.
-calculation_result = operations[operations_Input]
+    # Perform the calculation.
+    calculation_function = operations[operation_Input] # Using the operation_Input (Key), get the function.
+    answer = calculation_function(num1, num2) # Perform the calculation.
+    print(f"{num1} {operation_Input} {num2} = {answer}") # Print the answer.
 
-answer = calculation_result(num1, num2) # Call the calculation_result function call.
+    # Handle 'y' or 'n' input.
+    if input(f"Type 'y' to continue calculating with {answer}, or type 'n' to start a new calculation: ") == 'y':
+      num1 = answer
+    else:
+      should_continue = False
+      clear()
+      calculator()
 
-# Print the result of the operation.
-print(f"{num1} {operations_Input} {num2} = {answer}")
+calculator()
