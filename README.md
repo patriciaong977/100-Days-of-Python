@@ -7,7 +7,7 @@ This Repository is composed of my notes while learning python using Dr. Angela Y
 I decided to learn more about python on top of my current knowledge to enhance my skills as a programmer and also to refresh the knowledge that I've already gained from self-studying.
 
 # 📈 Progress
-### Day 10 ✅ / Day 💯
+### Day 11 ✅ / Day 💯
 
 # Folder Organization
 - ### Day # folders 📁
@@ -21,3 +21,7 @@ I decided to learn more about python on top of my current knowledge to enhance m
   - Consists of daily projects assigned each day.
 - ### Resources 📖
   - Mostly pdf references from the course that I reference to.
+- ### Capstone Projects
+  - Projects that collectively uses previous learned skills to build a bigger project.
+    - ### [Blackjack](https://github.com/patriciaong977/100-Days-of-Python/tree/master/Blackjack%20Capstone%20Project)
+      - A simple blackjack game.
