@@ -23,5 +23,5 @@ I decided to learn more about python on top of my current knowledge to enhance m
   - Mostly pdf references from the course that I reference to.
 - ### Capstone Projects
   - Projects that collectively uses previous learned skills to build a bigger project.
-    - ### [Blackjack](https://github.com/patriciaong977/100-Days-of-Python/tree/master/Blackjack%20Capstone%20Project)
+    - ### Day 11: [Blackjack](https://github.com/patriciaong977/100-Days-of-Python/tree/master/Blackjack%20Capstone%20Project)
       - A simple blackjack game.
