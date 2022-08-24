@@ -61,7 +61,7 @@ This folder contains all the projects mentioned so far on the course.
 - Perform the calculation and display the result.
 - Ask if the user wants to do another calculation.
 
-## Day 12: Number Guessing Game - [num_Guess.py]()
+## Day 12: Number Guessing Game - [num_Guess.py](https://github.com/patriciaong977/100-Days-of-Python/blob/master/Mini%20Projects/numberGuessing/num_Guess.py)
 - Include an ASCII art logo.
 - Allow the player to submit a guess for a number between 1 and 100.
 - Check user's guess against actual answer. Print "Too high." or "Too low." depending on the user's answer.
