@@ -68,7 +68,7 @@ This folder consists of interactive coding exercises that were completed during 
     - You are then going to create a function called days_in_month() which will take a year and a month as inputs.
     - And it will use this information to work out the number of days in the month, then return that as the output.
 
-## Day 13 [Day 13 ✅]()
+## [Day 13 ✅](https://github.com/patriciaong977/100-Days-of-Python/tree/master/Interactive%20Coding%20Exercises/Day%2013)
 
 1. Debugging Odd or Even
 2. Debugging Leap Year
