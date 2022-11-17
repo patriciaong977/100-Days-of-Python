@@ -1,3 +1,4 @@
+# MENU = { drinkName: [cost, {ingredient: amount}] }
 MENU = {
     "espresso": {
         "ingredients": {
@@ -24,8 +25,17 @@ MENU = {
     }
 }
 
+# resources = {ingredient: amount}
 resources = {
     "water": 300,
     "milk": 200,
     "coffee": 100,
 }
+
+money = 0
+
+def displayReport():
+    print(f"Water: {resources['water']}ml")
+    print(f"Milk: {resources['milk']}ml")
+    print(f"Coffee: {resources['coffee']}g")
+    print(f"Money: ${money}")
