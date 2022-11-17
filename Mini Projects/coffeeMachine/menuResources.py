@@ -32,10 +32,10 @@ resources = {
     "coffee": 100,
 }
 
-money = 0
+Money = 0
 
 def displayReport():
     print(f"Water: {resources['water']}ml")
     print(f"Milk: {resources['milk']}ml")
     print(f"Coffee: {resources['coffee']}g")
-    print(f"Money: ${money}")
+    print(f"Money: ${Money}")

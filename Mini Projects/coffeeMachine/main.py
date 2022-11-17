@@ -1,6 +1,6 @@
 """ Import menuResources.py for MENU and resources."""
-from menuResources import MENU, resources, money, displayReport
-
+from menuResources import MENU, resources, Money, displayReport
+import menuResources
 
 def checkResources(drinkOfChoice):
     """Check if there are enough resources to make the drink of choice."""
@@ -24,8 +24,7 @@ def transactionSuccess(totalCoins, drinkCost):
     if totalCoins >= drinkCost:
         returnChange = round(totalCoins - drinkCost, 2)
         print(f"Here is ${returnChange} in change.")
-        global money
-        money += drinkCost
+        menuResources.Money += drinkCost
         return True
     else:
         print("Sorry that's not enough money. Money refunded.")
