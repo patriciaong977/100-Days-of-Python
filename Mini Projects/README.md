@@ -69,3 +69,12 @@ This folder contains all the projects mentioned so far on the course.
 - Track the number of turns remaining.
 - If they run out of turns, provide feedback to the player.
 - Include two different difficulty levels (e.g., 10 guesses in easy mode, only 5 guesses in hard mode).
+
+## Day 13: Coffee Machine - [main.py](https://github.com/patriciaong977/100-Days-of-Python/blob/master/Mini%20Projects/coffeeMachine/main.py)
+- Prompt user by asking “What would you like? (espresso/latte/cappuccino):”
+- Turn off the Coffee Machine by entering “off” to the prompt.
+- Print report.
+- Check resources sufficient?
+- Process coins.
+- Check transaction successful?
+- Make Coffee.
