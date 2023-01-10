@@ -1,16 +1,21 @@
-# Import
-from question_model import Question
-from data import question_data
-
 # Write a for loop to iterate over the question_data.
 # Create a Question object from each entry in question_data.
 # Append each Question object to the question_bank.
 
-questionList = []
+from question_model import Question
+from data import question_data
+from quiz_brain import QuizBrain
+
+question_Bank = []
 
 for q in question_data:
     q_Question = q["text"]
     q_Answer = q["answer"]
 
     create_Question = Question(q_Question, q_Answer)
-    questionList.append(create_Question)
+    question_Bank.append(create_Question)
+
+
+quiz = QuizBrain(question_Bank)
+while quiz.still_has_questions():
+    quiz.next_question()
