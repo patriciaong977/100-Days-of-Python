@@ -9,8 +9,8 @@ from quiz_brain import QuizBrain
 question_Bank = []
 
 for q in question_data:
-    q_Question = q["text"]
-    q_Answer = q["answer"]
+    q_Question = q["question"]
+    q_Answer = q["correct_answer"]
 
     create_Question = Question(q_Question, q_Answer)
     question_Bank.append(create_Question)
