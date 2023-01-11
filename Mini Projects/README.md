@@ -79,4 +79,13 @@ This folder contains all the projects mentioned so far on the course.
 - Check transaction successful?
 - Make Coffee.
 
-## Day 17: The Quiz Project
+## Day 17: The Quiz Project - [main.py](https://github.com/patriciaong977/100-Days-of-Python/blob/master/Mini%20Projects/Quiz%20Project/main.py)
+- Write a program that quizzes users on programming concepts.
+- Use questions from the Open Trivia DB API.
+- Use classes to structure the code.
+- Display question.
+- Allow True or False input from user.
+- Check if answer is correct.
+- Display correct answer.
+- Display current score.
+- Stop program once all the questions have been cycled through.
