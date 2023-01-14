@@ -18,13 +18,16 @@ def random_color():
     g = random.randint(0, 255)
     b = random.randint(0, 255)
 
+    rgbTuple = (r,g,b)
+    return rgbTuple
+
 # colours = ["salmon", "dark orange", "RoyalBlue1", "Chartreuse2",
 #           "goldenrod", "dark turquoise", "olive drab", "DeepSkyBlue2"]
 directions = [0, 90, 180, 270]
 tim.pensize(15)
 tim.speed("fastest")
 
-# for _ in range(200):
-#     tim.color(random.choice(colours))
-#     tim.forward(20)
-#     tim.setheading(random.choice(directions))
+for _ in range(200):
+    tim.color(random_color())
+    tim.forward(20)
+    tim.setheading(random.choice(directions))
