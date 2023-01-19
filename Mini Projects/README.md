@@ -90,7 +90,7 @@ This folder contains all the projects mentioned so far on the course.
 - Display current score.
 - Stop program once all the questions have been cycled through.
 
-# Day 18: Hirst Painting - [main.py]()
+## Day 18: Hirst Painting - [main.py](https://github.com/patriciaong977/100-Days-of-Python/blob/master/Mini%20Projects/hirstPainting/main.py)
 - Reproduce a painting using Python Turtle.
 - Use the colorgram package to extract colors from an image.
 - Use the turtle module to draw shapes on the screen.
