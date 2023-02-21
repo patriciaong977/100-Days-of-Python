@@ -95,3 +95,11 @@ This folder contains all the projects mentioned so far on the course.
 - Use the colorgram package to extract colors from an image.
 - Use the turtle module to draw shapes on the screen.
 - Use the random module to generate random numbers.
+
+## Day 19: Etch-A-Sketch - [main.py]()
+- Create a turtle that will allow you to draw on the screen.
+- Use the "w" key to move forward.
+- Use the "s" key to move backward.
+- Use the "c" key to clear the screen.
+- Use the "a" key to go counter-clockwise.
+- Use the "d" key to go clockwise.
