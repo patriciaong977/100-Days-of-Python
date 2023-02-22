@@ -96,7 +96,7 @@ This folder contains all the projects mentioned so far on the course.
 - Use the turtle module to draw shapes on the screen.
 - Use the random module to generate random numbers.
 
-## Day 19: Etch-A-Sketch - [main.py]()
+## Day 19: Etch-A-Sketch - [etch.py](https://github.com/patriciaong977/100-Days-of-Python/blob/master/Mini%20Projects/Etch-a-sketch/etch.py)
 - Create a turtle that will allow you to draw on the screen.
 - Use the "w" key to move forward.
 - Use the "s" key to move backward.
