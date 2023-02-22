@@ -41,3 +41,17 @@ screen.exitonclick()
 #   return func(n1, n2)
 
 # result = calculator(2, 3, subtract)
+
+
+# Object State and Instances
+
+'''
+Object | Class
+timmy  = Turtle()   - Both are separate instances. Instance 1
+tommy  = Turtle()   - Instance 2
+
+State - different states in terms of attributes. 
+timmy.color = green
+tommy.color = purple
+
+'''
