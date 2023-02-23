@@ -1,0 +1,20 @@
+# Day 21: Class Inheritance, Slicing
+
+Chef Class | Pastry Chef Class
+bake()     | bake()
+stir()     | stir()
+measure()  | measure()
+           | knead()
+           | whisk()
+
+Class inheritance:
+- Inherit Apperance = Attributes
+- Inherit Behavior = Methods
+- Inherit Identity = Class Name
+
+Inheritance:
+class Fish(Animal): # Name of the class = Fish, Name of the parent/super class = Animal
+  def __init__(self):
+   super().__init__() # Call the __init__() method of the parent/super class
+
+! Look into day21.py for examples.
