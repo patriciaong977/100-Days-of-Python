@@ -104,4 +104,13 @@ This folder contains all the projects mentioned so far on the course.
 - Use the "a" key to go counter-clockwise.
 - Use the "d" key to go clockwise.
 
-## Day 19: Turtle Race - [main.py]()
+## Day 19: Turtle Race - [main.py](https://github.com/patriciaong977/100-Days-of-Python/blob/master/Mini%20Projects/TurtleRace/main.py)
+- Set up screen size.
+- Create a turtle object.
+- Create a list of colors.
+- Create turtles of different colors.
+- Move turtles to starting position.
+- Ask user for bet on which turtle color will win.
+- Move turtles forward.
+- Check if turtle has reached the finish line.
+- Check if user's bet is correct.
